@@ -24,9 +24,9 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b9be0c15efe8ad9489fdeead114d8ec5, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -37,8 +37,8 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_Sun: {fileID: 33059362}
+  m_IndirectSpecularColor: {r: 0.0017686491, g: 0.0017979617, b: 0.0017649633, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c52e643a0a7b5b3409b2840adda7c167, type: 2}
   m_LightingSettings: {fileID: 1665235685}
 --- !u!196 &4
 NavMeshSettings:
@@ -191,6 +191,11 @@ PrefabInstance:
     - {fileID: 7062803146293324617, guid: d7371707ba3cd57438cbbe29595981ae, type: 3}
     - {fileID: 5063051254084812973, guid: d7371707ba3cd57438cbbe29595981ae, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d7371707ba3cd57438cbbe29595981ae, type: 3}
+--- !u!108 &33059362 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 3514509232591278334, guid: b6d8781b752694b4b970562741dbcc75, type: 3}
+  m_PrefabInstance: {fileID: 2146636925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &33059363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3514509232591278335, guid: b6d8781b752694b4b970562741dbcc75, type: 3}
@@ -749,7 +754,7 @@ LightingSettings:
   serializedVersion: 3
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 1
-  m_EnableRealtimeLightmaps: 0
+  m_EnableRealtimeLightmaps: 1
   m_RealtimeEnvironmentLighting: 1
   m_BounceScale: 1
   m_AlbedoBoost: 1
@@ -945,15 +950,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3514509232591278335, guid: b6d8781b752694b4b970562741dbcc75, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.297897
+      value: -6.111
       objectReference: {fileID: 0}
     - target: {fileID: 3514509232591278335, guid: b6d8781b752694b4b970562741dbcc75, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4229007
+      value: 16.6
       objectReference: {fileID: 0}
     - target: {fileID: 3514509232591278335, guid: b6d8781b752694b4b970562741dbcc75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.582695
+      value: 5.779
       objectReference: {fileID: 0}
     - target: {fileID: 3514509232591278335, guid: b6d8781b752694b4b970562741dbcc75, type: 3}
       propertyPath: m_LocalRotation.w
